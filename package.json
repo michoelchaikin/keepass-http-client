@@ -1,0 +1,37 @@
+{
+  "name": "keepass-http-client",
+  "version": "0.0.1",
+  "description": "Node.js module to retrieve credentials from KeepPass, using the KeePassHTTP plugin. It uses native ES2015 Promises to easily plug into a gulp task.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michoelchaikin/keepass-http-client.git"
+  },
+  "keywords": [
+    "keepass",
+    "password",
+    "security"
+  ],
+  "author": "Michoel Chaikin <michoel@melbourneofficesupplies.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michoelchaikin/keepass-http-client/issues"
+  },
+  "homepage": "https://github.com/michoelchaikin/keepass-http-client#readme",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
+    "sjcl-all": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
